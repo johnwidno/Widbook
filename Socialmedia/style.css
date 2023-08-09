@@ -1,0 +1,540 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+}
+
+body{
+    background: #efefef;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: dodgerblue;
+    padding: 5px 5%;
+    text-decoration: none;
+    position: sticky;
+    top: 0;
+}
+
+
+.nav-left{
+    display: flex;
+     align-items: center;
+}
+
+.navlogo{
+    width: 169px;
+    margin: 0,5%;
+    color: #efefef;
+}
+.navlogo span{
+    font-size: 36px;
+  
+
+}
+.nav-left a{
+    font-size: 24px;
+    font-weight: 800;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-icon{
+    display: flex;
+    align-items: center;
+    color: #efefef;
+    text-decoration: none;
+margin-left: 1rem;
+
+    
+}
+
+.nav-icon, ul li  {
+    text-decoration: none;
+    text-transform: none;
+    display: inline-block;
+    margin-left: 3rem;
+   
+}
+
+
+
+.nav-right{
+    display: flex;
+     align-items: center;
+}
+
+.user-icon{
+    width: 4opx;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.search-box{
+background: dodgerblue;
+width: 350px;
+height: 25px;
+border-radius: 20px;
+align-items: center;
+padding: 0 0px;
+display: flex;
+
+}
+
+.search-box img{
+    width: 30px;
+    cursor: pointer;
+}
+
+.search-box input{
+    width: 100%;
+    background: #efefef;
+    padding: 7px;
+    outline: none;  
+    border-radius: 20px;
+    border: none;
+
+}
+
+.online{
+
+    position: relative;
+}
+.online::after{
+    content: '';
+    width: 7px;
+    height: 7px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background: #41db51;
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+
+}
+
+
+/* ********************* deuxieme patie ********************** */
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 20px;
+    position: sticky;
+}
+
+.contenu-Gauche{
+
+flex-basis: 25%;
+position: sticky;
+top: 70px;
+align-self: flex-start;
+
+
+
+}
+.contenu-droite{
+
+flex-basis: 25%;
+position: sticky;
+top: 70px;
+align-self: flex-start;
+background: #fff;
+padding: 20px;
+border-radius: 4px;
+color: #262626;
+
+}
+
+.contenu-Center{
+    flex-basis: 46%;
+  
+   
+}
+
+.contenu-Gauche, .imp-links a{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    margin-bottom: 30px;
+    color: #606340;
+    
+
+
+}
+.contenu-Gauche, .imp-links img{
+margin-right: 15px;
+}
+
+.imp-links a:last-child{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    margin-bottom: 30px;
+    color: dodgerblue;
+
+
+}
+.imp-links{
+    border-bottom: 1px solid #606340;
+   
+}
+
+
+
+.chortcuts-links h3{
+  margin: 25px 0;
+  color:#262626;
+}
+
+
+
+.chortcuts-links a{
+    
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    margin-bottom: 30px;
+    color: dodgerblue;
+    
+}
+
+.chortcuts-links a img{
+    width: 40px;
+    height: 30px;
+    border-radius: 4px ;
+    border: 1px solid black;
+    margin-right: 15px;
+ 
+}
+
+
+/* ************************ Contenue de droite part 3 ******************************************/
+.contenu-droite-title{
+   display: flex;
+   align-self: center;
+   justify-content: space-between;
+   margin-bottom: 18px;
+}
+
+
+.contenu-droite-title h4{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.contenu-droite-title a{
+    color: dodgerblue;
+    font-size: 12px;
+}
+
+/* ******************************EVENT PART**************************/
+.Event{
+    display: flex;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.Event-gauche{
+    border-radius: 10px;
+    height: 65px;
+    width: 65px;
+    margin-right: 15px;
+    margin-top: 10px;
+    text-align: center;
+    
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) ;
+}
+
+.Event-gauche span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #1876f2;
+    color: #fff;
+    padding: 4px;
+}
+
+.Event p{
+    font-size: 12px;
+}
+
+.Event a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #1876f2;
+   
+}
+.image_adds{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20pxpxpx;
+    border-radius: 4px;
+
+
+}
+
+.online-listUsers{
+    display: flex;
+    align-items: center;
+    margin-bottom:20 ;
+}
+
+.online-listUsers .online img{
+    width: 40px;
+    border-radius: 50%;
+}
+
+.online-listUsers .online{
+    width: 40px;
+    margin-right: 20px;
+}
+
+.online-listUsers .online::after{
+    top: unset;
+    bottom: 0;
+}
+
+
+
+/******************************************* part 2 le milieu*/
+
+.stories-gallery{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+ 
+
+}
+
+.story{
+
+    flex-basis: 30%;
+    padding-top: 32%;
+    position:relative;
+    background-image: linear-gradient(transparent ,rgba(0,0,0,0.8)) ,url(Icones/IMG_7265.JPG);
+     background-position: center;
+    background-size: cover;
+     border-radius: 10px;
+    margin-right: 5px;
+   
+}
+
+.story img{
+    position: absolute;
+    border-radius: 50%;
+    top: 10px;
+    left: 5px;
+    border-radius: 5px solid #626262;
+ 
+}
+
+.story p{
+    
+    position: relative;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.story1{
+    background-image: linear-gradient(transparent ,rgba(0,0,0,0.8)) ,url(Icones/241132640_2991421261136641_4551043450530926615_n.jpg);
+    
+}
+.story2{
+    background-image: linear-gradient(transparent ,rgba(0,0,0,0.8)) ,url(Icones/STAN\ 5\ -\ Copy.jpg);
+    
+}
+.story3{
+    background-image: linear-gradient(transparent ,rgba(0,0,0,0.8)) ,url(Icones/241132640_2991421261136641_4551043450530926615_n.jpg);
+    
+}
+.story4{
+    background-image: linear-gradient(transparent ,rgba(0,0,0,0.8)) ,url(Icones/WhatsApp\ Image\ 2022-06-24\ at\ 10.41.18\ AM.jpeg);
+    
+}
+
+/*/************** Envoye post-/**************************/
+
+.envoye_un_post-container{
+    width: 95.5%;
+    background: #fff;
+    border-radius: 15px;
+    padding: 15px;
+    columns: #626262;
+   
+
+   
+}
+
+
+.user-profile{ 
+    display: flex;
+    align-items: center;
+    
+    }
+
+.user-profile img{
+    width: 45px;
+    border-radius: 50%;
+    margin-right: 15px;
+   
+  
+}
+.user-profile p{
+   font-size: 14px;
+   color: black;
+}
+.user-profile small{
+    font-size: 12px;
+    
+}
+
+.user-profile small img{
+    width: 10px;
+
+}
+
+/************************* faire un post7  k\**//**/
+
+.add-post-container{
+    padding-left: 55px;
+  
+
+}
+.add-post-container textarea{
+    width: 100% ;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #ccc;
+    background: transparent;
+    resize: none;
+
+}
+
+.input-media-links {
+    display: flex;
+    margin-top: 10px;
+
+}
+.input-media-links a{
+   display: flex;
+   text-decoration: none;
+   align-items: center;
+   margin-right: 30px;
+   font-size: 13px;
+
+}
+
+.input-media-links img{
+    width: 20px;
+    margin-right: 10px;
+}
+
+/*///************** Story oF POSTS ***************************/
+
+.story-post-container{
+width: 95%;
+columns: #626262;
+background: #fff;
+border-radius: 6px;
+color: #62626262;
+padding: 16px;
+margin: 15px 0;
+
+}
+
+.user-profile p{
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.user-profile span{
+    font-size: 13px;
+    color:#606340;
+
+}
+
+.story-post-container p{
+    color: black;
+   margin-top: 15px;
+   margin-bottom: 15px;
+}
+
+.post-image{
+    width: 100%;
+    border-radius: 5px;
+   margin-bottom: 5px;
+}
+
+.post_row-users{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.icon-activity div img{
+    
+    width: 18px;
+    margin-right: 10px;
+}
+.icon-activity div  {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 30px;
+    color: black;
+    cursor: pointer;
+}
+
+.post-profile-user-icone{
+    display: flex;
+    align-items: center;
+}
+
+.post-profile-user-icone img{
+   width: 20px;
+   border-radius: 50%;
+}
+.img-profile{
+   width: 10px;
+ 
+}
+
+
+.loadmorebtn{
+display: block;
+margin: auto;
+cursor: pointer;
+padding: 5px 10px;
+border: 1px solid #9a9a9a;
+color: #626262;
+background: transparent;
+border-radius: 4px;
+
+}
+
+
+.footer{
+    text-align: center;
+    color: #9a9a9a;
+  padding: 10px 0 20px;
+  font-size: 16px;
+}
+
+.setting-menu{
+    position: absolute;
+    width: 90%;
+    height: 500px;
+}
+
